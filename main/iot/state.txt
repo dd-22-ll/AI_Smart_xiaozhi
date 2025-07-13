@@ -1,0 +1,14 @@
+"{ \
+     \"states \": [ \
+        { \
+             \"name \":  \"Speaker \", \
+             \"state \": { \
+                 \"mute \": false, \
+                 \"volume \": 60 \
+            } \
+        } \
+    ], \
+     \"type \":  \"iot \", \
+     \"update \": true \
+}"
+

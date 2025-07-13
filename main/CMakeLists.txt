@@ -1,0 +1,23 @@
+idf_component_register(SRCS 
+                           "main.c"
+                            "bsp/bsp_wifi.c"
+                            "commu/ota.c"
+                            "commu/ws.c"
+                            "app/application.c"
+                            "bsp/bsp_sound.c"
+                            "audio_process/audio_encoder.c"
+                            "audio_process/audio_decoder.c"
+                            "audio_process/audio_sr.c"
+                            "iot/iot.c"
+                            "bsp/bsp_lcd.c"
+                            "display/display.c"
+                    INCLUDE_DIRS 
+                            "."
+                            "com"
+                            "bsp"
+                            "commu"
+                            "display"
+                            "app"
+                            "audio_process"
+                            "iot"
+)
